@@ -29,8 +29,8 @@ depends=('bash')
 source=("zswap-arm-ctrl"
         "zswap-arm.service")
 
-md5sums=('951d8b7e64f10cb98b3c0118befed2e8'
-         'b7b06558e6c704b1db9e646412db87bb')
+md5sums=('SKIP'
+         'SKIP')
 
 package() {
   install -Dm755 zswap-arm-ctrl $pkgdir/usr/lib/systemd/scripts/zswap-arm-ctrl
